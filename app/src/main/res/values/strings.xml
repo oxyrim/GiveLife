@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Give Life</string>
+
+    <string name="title_section1">Sonam</string>
+    <string name="title_section2">Donor History</string>
+    <string name="title_section3">Eligibility Test</string>
+    <string name="title_section4">Log out</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">login</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register">register</string>
+    <string name="etUsername">Username</string>
+    <string name="etPassword">Password</string>
+    <string name="etConPassword">Confirm Password</string>
+    <string name="title_activity_e_registration">eRegistration</string>
+    <string name="title_activity_e_registration1">eRegistration1</string>
+
+
+    <string name="title_activity_menu4">menu4</string>
+    <string name="bDonor">Donate Organ</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_logo">logo</string>
+    <string name="process">Continue</string>
+    <string name="gofor">Continue</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_launchcamp">Launchcamp</string>
+    <string name="title_activity_masterlogin">Masterlogin</string>
+    <string name="title_activity_post">Post</string>
+    <string name="title_activity_emergepost">Emergepost</string>
+    <string name="title_activity_accountsec">Accountsec</string>
+    <string name="title_activity_eligibility">Eligibility</string>
+    <string name="title_activity_information">Information</string>
+    <string name="title_activity_working">Working</string>
+    <string name="admin">admin</string>
+    <string name="title_activity_organregistration">Organregistration</string>
+    <string name="title_activity_update_info">UpdateInfo</string>
+    <string name="title_activity_give_life">GiveLife</string>
+
+</resources>

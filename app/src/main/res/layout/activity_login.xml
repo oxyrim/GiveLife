@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/wallpaper"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:drawableLeft="@drawable/user"
+        android:paddingLeft="5dp"
+        android:hint="U s e r n a m e"
+        android:textColorHint="#f8f8ff"
+        android:textStyle="bold"
+        android:background="@drawable/roundedittext"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="text"
+        android:id="@+id/etUsername"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"
+        android:hint="Password"
+        android:textColorHint="#f8f8ff"
+        android:background="@drawable/roundedittext"
+        android:drawableLeft="@drawable/password"
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="L o g i n"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/roundedittext"
+        android:layout_marginTop="15dp"
+        android:id="@+id/blogin"/>
+
+
+    <TextView
+        android:id="@+id/tvRegisterLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="S i g n   U p   H e r e"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <TextView
+        android:id="@+id/admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="admin"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="wrap_content"
+    android:background="#ff9f9f"
+    android:textSize = "12dp"
+    android:layout_width="match_parent">
+    
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="N a m e"
+        android:paddingLeft="10dp"
+        android:textColorHint="#ffffff"
+        android:background="@drawable/roundedittext"
+        android:id="@+id/etName"
+        android:layout_marginTop="7dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColorHint="#ffffff"
+        android:hint="A g e"
+        android:paddingLeft="10dp"
+        android:background="@drawable/roundedittext"
+        android:id="@+id/etAge"
+        android:layout_marginTop="7dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="L o c a t i o n"
+        android:background="@drawable/roundedittext"
+        android:paddingLeft="10dp"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="7dp"
+        android:id="@+id/etLocation"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="C i d"
+        android:paddingLeft="10dp"
+        android:background="@drawable/roundedittext"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="7dp"
+        android:id="@+id/etCid"
+        android:inputType="number"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/roundedittext"
+        android:hint="B l o o d  G r o u p"
+        android:textColorHint="#ffffff"
+        android:id="@+id/etBgroup"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="M o b i l e   N u m b e r"
+        android:layout_marginTop="7dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/roundedittext"
+        android:textColorHint="#ffffff"
+        android:id="@+id/etMobnum"
+        android:inputType="number"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:hint="U s e r n a m e"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/roundedittext"
+        android:textColorHint="#ffffff"
+        android:id="@+id/etUsername"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        android:background="@drawable/roundedittext"
+        android:layout_marginTop="7dp"
+        android:textColorHint="#ffffff"
+        android:inputType="textPassword"
+        android:id="@+id/etPassword"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Confirm Password"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/roundedittext"
+        android:textColorHint="#ffffff"
+        android:inputType="textPassword"
+        android:id="@+id/etPassword1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="R e g i s t e r"
+        android:textColor="#000000"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/roundwhite"
+        android:layout_marginTop="12dp"
+        android:id="@+id/bregister"
+        android:onClick="userReg"/>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sonam.givelife.eRegistration">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingLeft="5dp"
+            android:hint="Organ Name "
+            android:textColorHint="#f8f8ff"
+            android:textStyle="bold"
+            android:background="#ff7f7f"
+            android:layout_marginTop="40dp"
+            android:inputType="text"
+            android:id="@+id/etOrganDon"/>
+
+    <TextView
+        android:layout_marginTop="120dp"
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:paddingLeft="160dp"
+        android:paddingTop="10dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:drawablePadding="10dp"
+        android:singleLine="true"
+        android:text="Username"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Donor  Registration "
+        android:textColor="#f8f8ff"
+        android:layout_marginTop="10dp"
+        android:id="@+id/donorbutton"
+        android:background="#ff7f7f"
+        />
+
+
+</LinearLayout>
+</ScrollView>

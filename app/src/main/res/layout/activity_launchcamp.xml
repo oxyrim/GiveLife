@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.example.sonam.givelife.Launchcamp">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="C a m p a i g n   N a m e"
+        android:drawableLeft="@drawable/camname"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#ff0000"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/etCamname"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="V e n u e "
+        android:drawableLeft="@drawable/loc"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#ff0000"
+        android:inputType="text"
+        android:id="@+id/etVenue"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="S p o n s o r"
+        android:drawableLeft="@drawable/spon"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#ff0000"
+        android:inputType="text"
+        android:id="@+id/etSpon"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="D a t e"
+        android:drawableLeft="@drawable/date"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#ff0000"
+        android:inputType="text"
+        android:id="@+id/etDate"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="L a u n c h   C a m p a i g n"
+        android:textColor="#fffaf0"
+        android:background="@drawable/roundedittext"
+        android:layout_marginTop="15dp"
+        android:id="@+id/bCam"/>
+
+</LinearLayout>

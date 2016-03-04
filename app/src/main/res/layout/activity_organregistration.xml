@@ -1,0 +1,90 @@
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.sonam.givelife.Organregistration">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="5dp"
+        android:hint="Organ Name "
+        android:textColorHint="#f8f8ff"
+        android:textStyle="bold"
+        android:background="#ff7f7f"
+        android:layout_marginTop="40dp"
+        android:inputType="text"
+        android:id="@+id/etorg"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I Agree to the following Tems and Conditions."
+        android:id="@+id/checkBox"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/etOrganDon"
+        android:checked="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registered User will be given an option to Donate vital Organs to help the neede ones."
+        android:id="@+id/textView"
+        android:layout_below="@+id/checkBox"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Following are the different procedure to different organ donation."
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kidney registered user will be contacted by the hospital if needed, the user has the right to either accept or reject depending upon his health casualties."
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liver donor will be given only one option, that is until one lives. After death donation is not valid. "
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Organ such as Kidney, Eyes, Heart, Liver, Bonemarrow can be donated after death of a donor. The body will be taken over by the institute for the betterment of society."
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:background="@drawable/roundedittext"
+        android:id="@+id/oregis"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
+</ScrollView>
